@@ -1,0 +1,296 @@
+/* teste */
+
+#teste{
+    color: red;
+}
+
+/* Fontes */
+
+@font-face {
+    font-family:"montserrat";
+    src: url("../Fontes/Montserrat-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"montserrat-thin";
+    src: url("../Fontes/Montserrat-Thin.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* mini cabeçalho */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mini-cabeçalho{
+    background-color: #8e44ad;
+    text-align: center;
+    display: flex;
+}
+
+.paragrafo{
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    color: white;
+    font-family: "montserrat";
+    font-style: normal;
+}
+
+.mini-insta{
+    height: 19px;
+    width: 19px;
+    margin: 5px;
+    padding: 3px;
+}
+
+/* cabeçalho */
+
+header{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sb-banner{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 80px;
+}
+
+.icone-conta{
+    width:40px;
+    height:40px;
+    margin: 0 30px;
+    margin-top: 25px;
+
+}
+
+.icone-carrinho{
+    width:40px;
+    height:40px;
+    margin-top: 25px;
+}
+
+.my-account{
+    font-size: 12px;
+    color: white;
+    font-family:"montserrat";
+}
+
+.my-cart{
+    font-size: 12px;
+    color: white;
+    font-family: "montserrat";
+}
+
+.div-account{
+    display: inline-block;
+    text-align: center;
+}
+
+.div-cart{
+    display: inline-block;
+    text-align: center;
+    margin-right:50px;
+}
+
+.logo-imagem{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Barra de pesquisa */
+
+#search{
+    margin-top: 30px;
+    width: 700px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+/* categorias */
+
+.linha{
+    width: 100%;
+    height: 1px;
+    background-color: #2c2c2c;
+
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+}
+
+.categorias ul{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.categorias ul a{
+    margin: 0 17px;
+    color: beige;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "montserrat";
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* banner */
+.carousel{
+    padding: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carousel-control-prev{
+    margin-left: 60px;
+}
+
+.carousel-control-next{
+    margin-right: 60px;
+}
+
+.d-block{
+    border-radius: 25px;
+}
+
+/* informções */
+.box{
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.container-info{
+    box-sizing: border-box;
+    display: inline-block;
+    display: flex;
+    padding: 40px;
+    margin: 0 150px;
+
+}
+
+.img{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+}
+
+.escrita-segurança{
+    padding-right:10px;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+.escrita-frete{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.escrita-contato{
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+/* corpo */
+
+
+.info{
+    height: 200px;
+    width: 100%;
+    background-color: #d2d1d1;
+}
+
+/* produtos */
+
+.destaque{
+    text-align: center;
+    margin: 30px;
+}
+
+.card{
+    border-radius: 25px;
+    display:inline-block;
+    margin: 0 21px;
+    margin-top: 10px;
+}
+
+.btn-primary{
+    background-color: black;
+    border: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+/* rodape */
+.rodape{
+    height: 100px;
+    background-color: rgb(43, 43, 43);
+    margin-top:30px;
+}
+
+/* estilo de compra */
+
+.img-yeezy{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.escrita-compra{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.buy{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(17, 238, 17);
+    border:rgb(11, 184, 11) ;
+    border-radius: 25px;
+}
+
+/* Formulário */
+
+.nome{
+    text-align: center;
+    
+}
+
+.email{
+    text-align: center;
+}
+
+.box-form{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form-buttom{
+    margin: auto;
+    border-radius:10px;
+    width: 200px;
+    height: 30px;
+    /* background-color: rgb(23, 206, 23);
+    border-color: black(23, 206, 23); */
+    margin-top: 15px;
+}
